@@ -22,6 +22,12 @@ li {
   padding: 50px;
 }
 
+.dark {
+  color: #DADADA;
+  background: #1c2022;
+  min-height: 100%;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -107,6 +113,11 @@ li {
   border-radius: 3px;
 }
 
+.bg-dark {
+  background: rgba(36, 40, 42 );
+  border-radius: 3px;
+}
+
 .card {
   margin: 10px 0;
   width: 250px;
@@ -181,6 +192,12 @@ li {
   background: rgb(0, 0, 0, 0.02);
 }
 
+.player-inputs .input-dark {
+  background: rgba(36, 40, 42 );
+  color: white;
+}
+
+
 .player-inputs button {
   flex: 1;
   margin-left: 10px;
@@ -202,9 +219,15 @@ li {
 }
 
 .dark-btn {
+  color:  #141414;
+  background: #e6e6e6;
+}
+
+.light-btn {
   color: #e6e6e6;
   background: #141414;
 }
+
 
 .dark-btn:disabled {
   background: #f2f2f2;
